@@ -20,8 +20,8 @@ const projects = [
         id: 3,
         title: "E-Commerce Product Management System",
         description: "Backend system for online store handling product catalog, shopping cart, checkout with Stripe/PayPal integration, order tracking, admin dashboard, and automated email notifications with sales analytics.",
-        image: "images/projects/php_ecommerce.jpg",
-        github: "https://github.com/Jose-Mwangi/ecommerce-backend",
+        image: "images/projects/laravel.jpg",
+        github: "https://github.com/Jose-Mwangi/ecommerce-system.git",
         tags: ["Laravel", "PHP", "MySQL", "Stripe", "PayPal"]
     },
     {
