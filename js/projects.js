@@ -4,7 +4,7 @@ const projects = [
         id: 1,
         title: "High-Performance E-Commerce Backend Engine",
         description: "Production-ready backend system built with FastAPI, designed for high concurrency and transactional integrity. The platform includes secure JWT-based authentication, inventory management with stock safety controls, Redis-backed caching, rate limiting, and integrated Stripe payments. Containerized for deployment with Docker and optimized for scalability.",
-        image: "images/projects/ecommerce_stripe.jpg",
+        image: "images/projects/redis.jpg",
         github: "https://github.com/Jose-Mwangi/backend_project.git",
         tags: ["FastAPI", "PostgreSQL", "Redis", "Stripe", "Docker"]
     },
