@@ -3,7 +3,7 @@ const projects = [
     {
         id: 1,
         title: "High-Performance E-Commerce Backend Engine",
-        description: "Production-ready RESTful API using FastAPI with high concurrency support, Redis caching, PostgreSQL transactions, and Stripe payment integration. Features JWT authentication, inventory management with stock safety, and comprehensive rate limiting.",
+        description: "Production-ready backend system built with FastAPI, designed for high concurrency and transactional integrity. The platform includes secure JWT-based authentication, inventory management with stock safety controls, Redis-backed caching, rate limiting, and integrated Stripe payments. Containerized for deployment with Docker and optimized for scalability.",
         image: "images/projects/ecommerce_stripe.jpg",
         github: "https://github.com/Jose-Mwangi/backend_project.git",
         tags: ["FastAPI", "PostgreSQL", "Redis", "Stripe", "Docker"]
@@ -11,47 +11,47 @@ const projects = [
     {
         id: 2,
         title: "Distributed Web Scraper & News Aggregator",
-        description: "Scalable distributed system using Scrapy and Celery to crawl multiple news sources with intelligent deduplication via SHA-256 hashing. Features parallel worker processing, MongoDB storage, and searchable FastAPI interface.",
-        image: "images/projects/news_radar.jpg",
+        description: "Scalable distributed data collection system that crawls multiple news sources using Scrapy with Celery-powered task orchestration. Implements intelligent deduplication through hashing, persistent storage in MongoDB, and a FastAPI-powered search interface for real-time access to aggregated content.",
+        image: "images/projects/news_radar.png",
         github: "https://github.com/Jose-Mwangi/news_radar_project.git",
         tags: ["Scrapy", "Celery", "MongoDB", "FastAPI", "Docker"]
     },
     {
         id: 3,
         title: "E-Commerce Product Management System",
-        description: "Backend system for online store handling product catalog, shopping cart, checkout with Stripe/PayPal integration, order tracking, admin dashboard, and automated email notifications with sales analytics.",
-        image: "images/projects/laravel.jpg",
+        description: "Backend platform for online retail operations supporting product catalogs, shopping carts, checkout workflows, order tracking, administrative dashboards, and automated email notifications. Integrated multiple payment providers and implemented sales analytics for operational insights.",
+        image: "images/projects/laravel.png",
         github: "https://github.com/Jose-Mwangi/ecommerce-system.git",
         tags: ["Laravel", "PHP", "MySQL", "Stripe", "PayPal"]
     },
     {
         id: 4,
         title: "Automated Financial Reporting Workbook",
-        description: "Excel-based system generating Balance Sheet, Income Statement, and Cash Flow Statement with real-time job costing. Features automatic budget vs. actual comparison, drill-down transaction views, and documented formulas for easy customization.",
-        image: "images/projects/vba.jpg",
+        description: "Advanced Excel-based financial reporting system generating Balance Sheet, Income Statement, and Cash Flow Statement with automated job costing. Includes budget-versus-actual comparisons, drill-down transaction analysis, Power Query integrations, and well-documented VBA logic for extensibility.",
+        image: "images/projects/vba.png",
         github: "https://github.com/Jose-Mwangi/financial-reporting",
         tags: ["Excel VBA", "Financial Modeling", "Power Query", "Accounting"]
     },
     {
         id: 5,
         title: "Sales Performance BI Dashboard",
-        description: "This project is a dynamic, multi-page Streamlit application (snowflake deployed)designed to transform raw retail transactional data into actionable business insights. Using the Sample Superstore dataset, the dashboard provides a high-level executive summary and granular deep-dives into regional performance, product profitability, and customer behavior.",
-        image: "images/projects/salesboard_streamlit.jpg",
+        description: "Interactive multi-page analytics application built with Streamlit and deployed on Snowflake. Transforms retail transactional data into executive summaries and deep-dive analyses covering regional performance, product profitability, and customer behavior.",
+        image: "images/projects/salesboard_streamlit.png",
         github: "https://github.com/Jose-Mwangi/sales_streamlit.git",
         tags: ["Streamlit", "Data Visualization", "Business Intelligence", "Snowflake", "Pandas", "Analytics"]
     },
     {
         id: 6,
         title: "Sales Forecasting with Machine Learning",
-        description: "Predictive analytics system comparing ARIMA, Prophet, Random Forest, and XGBoost models to forecast 3-month sales with 95% confidence intervals. Delivered actionable recommendations for inventory planning and marketing budget allocation.",
+        description: "End-to-end forecasting system comparing classical time-series models and machine learning approaches for short-term sales prediction. The solution supports model evaluation, scenario analysis, and data-driven recommendations for inventory and marketing planning.",
         image: "images/projects/sales-forecastML.jpg",
-        github: "https://github.com/Jose-Mwangi/sales-forecasting",
-        tags: ["Python", "Machine Learning", "Time Series", "XGBoost", "Prophet"]
+        github: "https://github.com/Jose-Mwangi/Sales-forecasting-ML-models-and-datasets.git",
+        tags: ["Python", "Machine Learning", "Time Series", "XGBoost", "ARIMA", "Prophet"]
     },
     {
         id: 7,
         title: "AI-Powered Customer Support Chatbot",
-        description: "Intelligent chatbot using LangChain, OpenAI GPT-4, and Pinecone vector database with RAG pipeline for documentation retrieval. Achieved 88% answer accuracy with conversation memory and multi-turn dialogue management.",
+        description: "Intelligent conversational system built using a retrieval-augmented generation pipeline. Combines vector search with LLM reasoning to answer documentation-based queries, maintain conversation context, and support multi-turn dialogue in production environments.",
         image: "images/projects/chatbot.png",
         github: "https://github.com/Jose-Mwangi/support-chatbot",
         tags: ["LangChain", "OpenAI", "Pinecone", "RAG", "NLP"]
@@ -59,7 +59,7 @@ const projects = [
     {
         id: 8,
         title: "Enterprise Knowledge Retrieval System",
-        description: "Production-grade RAG pipeline with hybrid search and reranking capabilities. Achieved 85% retrieval accuracy and 40% reduction in hallucination with robust evaluation framework and quality monitoring.",
+        description: "Production-grade knowledge retrieval platform featuring hybrid search, reranking, and evaluation pipelines. Designed to reduce hallucinations and improve answer relevance across enterprise documentation with continuous quality monitoring.",
         image: "images/projects/rag.jpg",
         github: "https://github.com/Jose-Mwangi/knowledge-retrieval",
         tags: ["LangChain", "Pinecone", "OpenAI", "RAG", "Vector DB"]
@@ -67,7 +67,7 @@ const projects = [
     {
         id: 9,
         title: "Fine-tuned LLM for Agricultural Finance",
-        description: "Applied LoRA fine-tuning to Llama 2 for domain-specific question answering in agricultural finance. Deployed to AWS SageMaker with MLOps monitoring, achieving 35% improvement in contextual accuracy.",
+        description: "Domain-specific language model fine-tuned using LoRA techniques to support agricultural finance question answering. Deployed with cloud-based MLOps pipelines for monitoring, versioning, and inference scalability.",
         image: "images/projects/fine-tune.jpg",
         github: "https://github.com/Jose-Mwangi/agri-finance-llm",
         tags: ["Llama 2", "LoRA", "AWS SageMaker", "MLOps", "Fine-tuning"]
@@ -75,7 +75,7 @@ const projects = [
     {
         id: 10,
         title: "Multimodal Document Understanding System",
-        description: "OCR and CLIP-based solution for text-image understanding in export documentation. Achieved 92% data extraction accuracy with automated validation pipeline handling multiple document formats.",
+        description: "AI system combining OCR, computer vision, and NLP to extract and validate information from complex export documents. Supports multiple document formats with automated verification pipelines.",
         image: "images/projects/multimodal.png",
         github: "https://github.com/Jose-Mwangi/document-understanding",
         tags: ["Computer Vision", "OCR", "CLIP", "NLP", "PyTorch"]
@@ -83,7 +83,7 @@ const projects = [
     {
         id: 11,
         title: "Agentic Workflow Automation Platform",
-        description: "Multi-agent collaboration system using AutoGen framework for orchestrating data analysis tasks. Achieved 60% reduction in manual processing time with intelligent task delegation and tool reusability.",
+        description: "Multi-agent system orchestrating analytical and data-processing tasks using collaborative AI agents. Designed to automate complex workflows through intelligent task delegation and tool reuse.",
         image: "images/projects/agentic.jpg",
         github: "https://github.com/Jose-Mwangi/workflow-automation",
         tags: ["AutoGen", "AI Agents", "Workflow Automation", "Python"]
@@ -91,7 +91,7 @@ const projects = [
     {
         id: 12,
         title: "Customer Segmentation Analytics",
-        description: "Applied K-Means clustering and PCA for dimensionality reduction to identify profitable SME client segments. Delivered visualization dashboard with segment profiles and data-driven marketing strategy recommendations.",
+        description: "Data science project applying clustering and dimensionality reduction techniques to identify high-value SME customer segments. Delivered interpretable segment profiles and strategic recommendations supported by visual analytics.",
         image: "images/projects/segment.jpg",
         github: "https://github.com/Jose-Mwangi/customer-segmentation",
         tags: ["Machine Learning", "K-Means", "PCA", "Python", "Data Science"]
