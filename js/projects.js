@@ -53,7 +53,7 @@ const projects = [
         title: "AI-Powered Customer Support Chatbot",
         description: "Intelligent conversational system built using a retrieval-augmented generation pipeline. Combines vector search with LLM reasoning to answer documentation-based queries, maintain conversation context, and support multi-turn dialogue in production environments.",
         image: "images/projects/chatbot.png",
-        github: "https://github.com/Jose-Mwangi/support-chatbot",
+        github: "https://github.com/Jose-Mwangi/chatbot_customer_support.git",
         tags: ["LangChain", "OpenAI", "Pinecone", "RAG", "NLP"]
     },
     {
