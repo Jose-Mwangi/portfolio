@@ -90,11 +90,11 @@ const projects = [
     },
     {
         id: 12,
-        title: "Customer Segmentation Analytics",
-        description: "Data science project applying clustering and dimensionality reduction techniques to identify high-value SME customer segments. Delivered interpretable segment profiles and strategic recommendations supported by visual analytics.",
-        image: "images/projects/segment.jpg",
-        github: "https://github.com/Jose-Mwangi/customer-segmentation",
-        tags: ["Machine Learning", "K-Means", "PCA", "Python", "Data Science"]
+        title: "Credit Scoring MLOps Pipeline Agri-Finance",
+        description: "Built end-to-end MLOps pipeline assessing credit risk for smallholder farmers using XGBoost and alternative data sources. Deployed production system with FastAPI, Docker, and automated monitoring achieving 89% F1-score in loan default prediction, increasing loan accessibility for 10,000+ farmers.",
+        image: "images/projects/agri-scoring.png",
+        github: "https://github.com/Jose-Mwangi/credit-scoring-mlops.git",
+        tags: ["FastAPI REST", "MLOps", "Docker", "XGBoost", "Production" "ZenMl"]
     }
 ];
 
