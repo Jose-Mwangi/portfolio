@@ -94,7 +94,7 @@ const projects = [
         description: "Built end-to-end MLOps pipeline assessing credit risk for smallholder farmers using XGBoost and alternative data sources. Deployed production system with FastAPI, Docker, and automated monitoring achieving 89% F1-score in loan default prediction, increasing loan accessibility for 10,000+ farmers.",
         image: "images/projects/agri-scoring.png",
         github: "https://github.com/Jose-Mwangi/credit-scoring-mlops.git",
-        tags: ["FastAPI REST", "MLOps", "Docker", "XGBoost", "Production" "ZenMl"]
+        tags: ["FastAPI REST", "MLOps", "Docker", "XGBoost", "Production","ZenMl"]
     }
 ];
 
