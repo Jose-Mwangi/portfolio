@@ -74,11 +74,11 @@ const projects = [
     },
     {
         id: 10,
-        title: "Multimodal Document Understanding System",
-        description: "AI system combining OCR, computer vision, and NLP to extract and validate information from complex export documents. Supports multiple document formats with automated verification pipelines.",
-        image: "images/projects/multimodal.png",
-        github: "https://github.com/Jose-Mwangi/document-understanding",
-        tags: ["Computer Vision", "OCR", "CLIP", "NLP", "PyTorch"]
+        title: "Customer Intelligence Platform — MLOps with GenAI",
+        description: "Advanced customer analytics system leveraging PCA and Generative AI to transform raw data into human-readable segment insights. Built with a robust MLOps framework including Prefect and MLflow, it provides real-time drift monitoring via Evidently AI. This platform directly bridges high-level ML modeling with actionable retail strategy.",
+        image: "images/projects/customer-clustering.png",
+        github: "https://github.com/Jose-Mwangi/customer-intelligence-mlops.git",
+        tags: ["LLM", "MLOps", "Generative AI", "PCA", "KMeans"]
     },
     {
         id: 11,
